@@ -1,1 +1,33 @@
 
+    object's lifecycle
+	
+void go(){
+	Life z=new Life();
+//	z is away from its scope permanent
+} 
+    Life z=new Life();
+//  z=new Life();
+
+	Life z=new Life();
+//	z=null;
+ 
+ 
+ the use of share variable
+public class Duck{
+	private int size;
+	private static int duckCount=0;
+	public Duck(){
+		duckCount++;
+	}
+	public void setSize(int s){
+		size=s;
+	}
+	public int getSize(){
+		return size;
+	}
+}
+
+publid class API{
+	public static final double PI=3.141592656565;
+	System.out.println("pai is"+PI);
+}
